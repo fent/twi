@@ -1,0 +1,19 @@
+{
+  "name": "twi",
+  "version": "0.0.0",
+  "description": "Simple command line tool to get JSON for a Tweet.",
+  "bin": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "twitter",
+    "api",
+    "json"
+  ],
+  "author": "Roly Fentanes",
+  "dependencies": {
+    "request": "~2.27.0"
+  },
+  "license": "MIT"
+}
