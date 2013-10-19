@@ -15,7 +15,7 @@
     "api",
     "json"
   ],
-  "author": "Roly Fentanes",
+  "author": "Roly Fentanes (https://github.com/fent)",
   "dependencies": {
     "request": "~2.27.0"
   },
