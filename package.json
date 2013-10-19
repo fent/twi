@@ -15,7 +15,7 @@
     "api",
     "json"
   ],
-  "author": "fent",
+  "author": "fent (https://github.com/fent)",
   "dependencies": {
     "request": "~2.27.0"
   },
