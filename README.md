@@ -5,9 +5,28 @@ Command line tool to for Twitter's REST API.
 
 # Usage
 
-```bash
-usage: twi (tweet|user) (id|screen_name) [filter]
-```
+Retrieve user
+
+   $ twi user fent id_str,screen_name
+   { id_str: '75072321', screen_name: 'fent' } 
+
+Retrieve Tweet
+
+    $ twi tweet 387968357875843072
+    { created_at: 'Wed Oct 09 15:50:39 +0000 2013',
+      id: 387968357875843100,
+      id_str: '387968357875843072',
+      text: 'hmm I am not sure about this breakfast sandwich http://t.co/baw8koYz53',
+      ...
+    }
+
+
+To configure it with your Twitter oauth credentials, it looks at the following environment variables.
+
+    TWITTER_CONSUMER_KEY
+    TWITTER_CONSUMER_SECRET
+    TWITTER_TOKEN
+    TWITTER_TOKEN_SECRET
 
 # Motive
 
