@@ -7,8 +7,8 @@ Command line tool to for Twitter's REST API.
 
 Retrieve user
 
-   $ twi user roly426 id_str,screen_name
-   { id_str: '75072321', screen_name: 'roly426' } 
+    $ twi user roly426 id_str,screen_name
+    { id_str: '75072321', screen_name: 'roly426' } 
 
 Retrieve Tweet
 
