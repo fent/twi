@@ -17,7 +17,7 @@
   ],
   "author": "Roly Fentanes (https://github.com/fent)",
   "dependencies": {
-    "request": "~2.27.0"
+    "request": "~2.30.0"
   },
   "license": {
     "type": "MIT",
