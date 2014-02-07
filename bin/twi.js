@@ -2,10 +2,13 @@
 var cmd = process.argv[2];
 
 function usage() {
-  console.log('usage: twi (tweet id|user screen_name [filter])');
+  console.log('usage: twi <cmd> [template]');
+  console.log('       twi tweet <id> [template]');
+  console.log('       twi user <screen_name> [template]');
+  console.log('       twi clip [template]');
 }
 
-var commands = require('./commands');
+var commands = require('../lib/commands');
 var command = commands[cmd];
 if (!Object.prototype.hasOwnProperty.call(commands, cmd)) {
   console.log('unknown command');

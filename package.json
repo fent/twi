@@ -6,7 +6,8 @@
     "type": "git",
     "url": "git://github.com/fent/twi.git"
   },
-  "bin": "lib/index.js",
+  "main": "./lib/commands.js",
+  "bin": "./bin/twi.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
