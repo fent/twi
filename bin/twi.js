@@ -26,4 +26,13 @@ if (command.length + 3 > process.argv.length) {
   usage();
 }
 
-command.apply(this, process.argv.slice(3));
+var args = process.argv.slice(3);
+args.push(function(err, data) {
+  if (err) { return console.error(err.message); }
+  if (Array.isArray(data)) {
+    data.forEach(function(d) { console.log(d); });
+  } else {
+    console.log(data);
+  }
+});
+command.apply(this, args);
