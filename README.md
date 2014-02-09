@@ -7,8 +7,34 @@ Command line tool to for Twitter's REST API.
 
 Retrieve user
 
-    $ twi user roly426 id_str,screen_name
-    { id_str: '75072321', screen_name: 'roly426' } 
+    $ twi username roly426
+    { id: 75072321,
+      id_str: '75072321',
+      name: 'Roly Fentanes',
+      screen_name: 'roly426',
+      ...
+    }
+
+By id
+
+    $ twi userid 75072321
+    { id: 75072321,
+      id_str: '75072321',
+      name: 'Roly Fentanes',
+      screen_name: 'roly426',
+      ...
+    }
+
+Optional template
+
+    $ twi username roly426 '{{id_str}}'
+    75072321
+
+Multiple user lookups (with one request)
+
+    $ twi username roly426,twitterid '{{id_str}} - {{screen_name}}'
+    75072321 - roly426
+    6253282 - twitterapi
 
 Retrieve Tweet
 
