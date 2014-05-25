@@ -19,7 +19,7 @@
   "author": "fent (https://github.com/fent)",
   "dependencies": {
     "hogan.js": "~2.0.0",
-    "request": "~2.34.0",
+    "request": "~2.36.0",
     "timequeue": "~0.2.2"
   },
   "license": {
