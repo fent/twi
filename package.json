@@ -18,8 +18,8 @@
   ],
   "author": "Roly Fentanes (https://github.com/fent)",
   "dependencies": {
-    "hogan.js": "~2.0.0",
-    "request": "~2.37.0",
+    "hogan.js": "^3.0.2",
+    "request": "^2.37.0",
     "timequeue": "~0.2.2"
   },
   "license": {
