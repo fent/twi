@@ -2,6 +2,7 @@
 
 Command line tool to for Twitter's REST API.
 
+[![Dependency Status](https://gemnasium.com/fent/twi.svg)](https://gemnasium.com/fent/twi)
 
 # Usage
 
