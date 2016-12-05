@@ -1,6 +1,6 @@
 {
   "name": "twi",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Simple command line tool to get JSON for a Tweet.",
   "repository": {
     "type": "git",
