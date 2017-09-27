@@ -19,7 +19,7 @@
   "author": "Roly Fentanes (https://github.com/fent)",
   "dependencies": {
     "hogan.js": "^3.0.2",
-    "request": "^2.37.0",
+    "request": "^2.83.0",
     "timequeue": "~1.0.0"
   },
   "license": "MIT"
