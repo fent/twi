@@ -33,7 +33,7 @@ Optional template
 
 Multiple user lookups (with one request)
 
-    $ twi username fent,twitterid '{{id_str}} - {{screen_name}}'
+    $ twi username fent,twitterapi '{{id_str}} - {{screen_name}}'
     75072321 - fent
     6253282 - twitterapi
 
