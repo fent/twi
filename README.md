@@ -64,6 +64,3 @@ I work with the Twitter API. Sometimes looking up a Tweet's or user's metadata i
 
     npm -g install twi
 
-
-# License
-MIT
